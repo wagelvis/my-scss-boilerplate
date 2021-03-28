@@ -1,20 +1,4 @@
-# Documentación SASS
-
-https://sass-lang.com/documentation
-
-# COMPILACIÓN SCSS TO CSS
-
-## UNMINIFY
-
-sass --watch main.scss ../css/styles.css
-
-## MINIFY
-
-sass --watch --style=compressed main.scss ../css/styles.min.css
-
 # ARQUITECTURA SASS
-
-Referencia: https://sass-guidelin.es/es
 
 ## Archivo main.scss
 
