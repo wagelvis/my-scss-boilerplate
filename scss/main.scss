@@ -4,12 +4,14 @@
 
 // La carpeta helpers/ reúne todas las herramientas y helpers de Sass utilizados en todo el proyecto. Cada variable global, función, mixin y placeholder debería estar en esta carpeta.
 @use './helpers/normalize';
+@use './helpers/variables';
 
 // La carpeta vendors/ contiene todos los archivos CSS procedentes de librerías externas y frameworks – Bootstrap, jQueryUI, FancyCarouselSliderjQueryPowered, etc.
 @use 'vendors/Readme.md';
 
 // La carpeta base/ contiene lo que podríamos llamar la plantilla del proyecto. Acá, podemos encontrar el archivo reset para reiniciar los estilos CSS, algunas reglas tipográficas y probablemente un archivo CSS que define algunos estilos estándares para los elementos HTML más comunes.
 @use './base/reset';
+@use './base/typography';
 
 // La carpeta layout/ contiene todo lo que tiene que ver con la distribución del sitio o la aplicación.
 @use 'layout/Readme.md';
