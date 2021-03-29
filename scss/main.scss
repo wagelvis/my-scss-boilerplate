@@ -10,6 +10,7 @@
 @use 'vendors/Readme.md';
 
 // La carpeta base/ contiene lo que podríamos llamar la plantilla del proyecto. Acá, podemos encontrar el archivo reset para reiniciar los estilos CSS, algunas reglas tipográficas y probablemente un archivo CSS que define algunos estilos estándares para los elementos HTML más comunes.
+@use './base/base';
 @use './base/reset';
 @use './base/typography';
 
